@@ -13,7 +13,7 @@ The analysis was performed using Excel Pivot Tables and Pivot Charts, as well as
 
 One of the challenges I encountered in this analysis was breaking down outcomes based on their goals. My final code for this part of the analysis looked like:
  
- =Kickstarter!D1:D4115,">=1000",Kickstarter!D1:D4115,"<5000"
+> =Kickstarter!D1:D4115,">=1000",Kickstarter!D1:D4115,"<5000"
  
 But originally I left out the inequalities for each row/goal bracket, which resulted in the data being inaccurate. That stumped me and killed some time until I was able to spot the error.
 
